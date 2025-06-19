@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: #171616;
+}
+
+#navbar > a {
+    font-size: 25px;
+}
+
+#navbar > a:hover {
+    color: #000;
+}
