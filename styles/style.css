@@ -4,7 +4,7 @@ body {
     background-color: #171616;
 }
 
-#navbar > a {
+#navbar > a, span {
     font-size: 25px;
 }
 
