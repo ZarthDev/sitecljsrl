@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/logocljicon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Navbar -->
     <nav
         class="nav justify-content-center bg-warning p-3"
         id="navbar"
@@ -27,9 +28,9 @@
     <div class="container mt-5">
         <h2 class="text-light mb-3">Eventos Próximos</h2>
         <div class="p-2 border rounded-3">
-            <div class="row">
+            <div class="row" id="eventsRow">
               <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card bg-dark text-light">
+                <div class="card cljEventCard bg-dark text-light">
                   <div class="card-body">
                     <h5 class="card-title">Campeonato de Vôlei</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore mollitia maiores quasi. Provident quisquam reprehenderit quo quas iste nemo error distinctio ipsa excepturi ea neque, facere eveniet minus sequi quis!</p>
@@ -38,7 +39,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="card bg-dark text-light">
+                <div class="card cljEventCard bg-dark text-light">
                   <div class="card-body">
                     <h5 class="card-title">Campeonato de Xadrez</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore mollitia maiores quasi. Provident quisquam reprehenderit quo quas iste nemo error distinctio ipsa excepturi ea neque, facere eveniet minus sequi quis!</p>
@@ -73,6 +74,8 @@
 
      <hr class="bg-light mt-5">
 
+    <script src="scripts/indexController.js"></script>
+    <script src="scripts/indexScript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
